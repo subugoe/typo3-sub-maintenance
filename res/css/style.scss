@@ -1,0 +1,93 @@
+$font-color: #626262;
+$main-color: #1A3771;
+$font-size: 100%;
+$line-height: 100%;
+$width: 800px;
+
+@import "base.scss";
+@import "layout.scss";
+@import "skeleton.scss";
+
+body {
+	color: $font-color;
+}
+
+h1 {
+	display: none;
+	font-size: $font-size + 150%;
+	margin: 10px 0 0 0;
+}
+
+h2 {
+	font-size: $font-size + 50%;
+}
+
+#bar {
+	margin-bottom: 20px;
+	border-bottom: 1px solid $main-color;
+	p {
+		font-size: $font-size - 10%;
+		margin: 0;
+		padding: 5px 0;
+		
+	}
+}
+
+#head {
+	background-image: url('http://www.sub.uni-goettingen.de/maintenance/res/img/logo_www_940.png');
+	background-repeat: no-repeat;
+	min-height: 180px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid $main-color;
+	padding: 0 0 20px 0;
+}
+
+
+
+#text {
+	border-bottom: 1px solid $main-color;
+	margin-bottom: 20px;
+	p {
+		font-size: $font-size +10%;
+		line-height: $line-height +50%;
+		text-align: justify;
+	}
+	p:last-child {
+		text-align: right;
+	}
+}
+
+#footer {
+	p {
+		text-align: right;
+		font-size: $font-size - 20%;
+	}
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#head {
+		background-image: url('http://www.sub.uni-goettingen.de/maintenance/res/img/logo_www_748.png');
+		min-height: 140px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#head {
+		background-image: url('http://www.sub.uni-goettingen.de/maintenance/res/img/logo_www_300.png');
+		min-height: 130px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#head {
+		background-image: url('http://www.sub.uni-goettingen.de/maintenance/res/img/logo_www_420.png');
+		min-height: 180px;
+	}
+}
