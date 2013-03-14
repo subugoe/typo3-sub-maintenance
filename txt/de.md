@@ -6,7 +6,7 @@ Folgende Webseiten sind erreichbar:
 
 [Göttinger Universitätskatalog (GUK) und Ihr Benutzerkonto](http://opac.sub.uni-goettingen.de "Göttinger Universitätskatalog (GUK) und Ihr Benutzerkonto")
 
-[Gemeinsamer Verbundkatalog (GVK) und Ihr Fernleihkonto](Link: http://gso.gbv.de/)
+[Gemeinsamer Verbundkatalog (GVK) und Ihr Fernleihkonto](http://gso.gbv.de/)
 
 [Elektronische Zeitschriftenbibliothek (EZB)](http://rzblx1.uni-regensburg.de/ezeit/fl.phtml?bibid=SUBGO&colors=7&lang=de)
 
