@@ -47,12 +47,12 @@
 
 			<!-- DE -->
 			<div class="alpha eight columns">
-				<?php echo markdown(file_get_contents('./txt/de.txt')); ?>
+				<?php echo markdown(file_get_contents('./txt/de.md')); ?>
 			</div>
 
 			<!-- EN -->
 			<div class="omega eight columns">
-				<?php echo markdown(file_get_contents('txt/en.txt')); ?>
+				<?php echo markdown(file_get_contents('txt/en.md')); ?>
 			</div>
 
 		</div>
